@@ -19,7 +19,7 @@ app.use(cookiParser())
 
 
 // routing
-app.use("/api/user", userRoutes)
+app.use("/", userRoutes)
 
 
 app.listen(port, ()=> {console.log("server activated on port", port)})
