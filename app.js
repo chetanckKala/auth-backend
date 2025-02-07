@@ -6,7 +6,7 @@ const port = process.env.PORT
 const connect = require("./config/db.js")
 const userRoutes = require("./routes/user.js")
 const cors = require("cors")
-const allowedOrigins = ["*"]
+const allowedOrigins = ["*", 'https://auth-frontend-hazel.vercel.app']
 const cookiParser = require("cookie-parser")
 
 
